@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2" >
+
+    <TextView
+        android:id="@+id/st_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.32"
+        android:text="@string/config_stdate"
+         />
+
+    <EditText
+        android:id="@+id/editText_St"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:editable="false"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
